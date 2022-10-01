@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Img/icons8-classic-user-profile-picture-layout-for-online-social-media-dashboard-16.png" type="image/x-icon">
+    <title>Tela de Login</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(212, 208, 208);
+    }
+    .bloco{
+        height: 600px;
+        width: 800px;
+        background-color: rgb(255, 76, 76);
+        border-radius: 10px;
+        display: flex;
+    }
+    
+    .bloco2{
+        height: 100%;
+        width: 50%;
+        background-color: white;
+        border-radius: 10px 50px 50px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bloco2 a{
+        text-decoration: none;
+        color: blue;
+        font-size: 20px;
+    }
+    .bloco2 h1{
+        color: black;
+        font-size: 60px;
+    }
+    .bloco2 h2{
+        color: black;
+        font-size: 40px;
+    }
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 50px;
+        gap: 10px;
+    }
+    img{
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.988);
+        border-radius: 20%  ;
+    }
+    button{
+        padding: 10px 40px;
+        font-size: 20px;
+        border: 0;
+        border-radius: 4px;
+    }
+</style>
+<body >
+    <div class="bloco">
+        
+        <div class="bloco2">
+            <a href="index.html"><h1>Home</h1></a>
+            <a href="cadastro.html"><h2>Cadastro</h2></a>
+            <a href="">Google</a>
+            <a href="">Facebook</a>
+            <a href="">Twitter</a>
+            
+        </div>
+        <div class="login">
+            <img src="Img/17004.png" alt="">
+            <h3>E-mail</h3>
+            <input type="text">
+            <h3>Senha</h3>
+            <input type="text">
+            <button>Entra</button>
+        </div>
+    </div>
+</body>
+
+</html>
